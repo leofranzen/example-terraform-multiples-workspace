@@ -18,3 +18,12 @@ Embora ambos ambientes sejam semelhantes eles possuem diferença, por exemplo no
 
 ## S3
 ![s3](https://user-images.githubusercontent.com/65728166/208317656-4be80ba5-2b53-4b5f-beb4-83471502dd89.png)
+
+## Em cada ambiente foi rodado os seguintes comandos (exemplo dev):
+```
+cd dev/
+terraform init
+terraform validate
+terraform plan # se aprovar
+terraform apply -auto-approve
+```
